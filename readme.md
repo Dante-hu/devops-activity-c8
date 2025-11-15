@@ -15,3 +15,5 @@
 
     test.yml
         - accidentily removed the 'on' feature and syntax was malformed
+    dependabot.yml
+        - there's an issue with dependabot not reading UTF-16 files which is generated when using pip freeze to generate the requirements.txt. To fix, you have to write the requirements.txt yourself
